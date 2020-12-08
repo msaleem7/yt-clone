@@ -1,0 +1,36 @@
+.channelRow {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  padding-bottom: 5px;
+}
+
+.channelRow__avatar {
+  height: 130px !important;
+  width: 130px !important;
+  margin: 10px 60px;
+}
+
+.channelRow__info {
+  margin-left: 30px;
+}
+
+.channelRow__channel {
+  display: flex;
+  align-items: center;
+}
+
+.channelRow__channel > h4 {
+  font-size: 20px !important;
+  font-weight: normal !important;
+}
+
+.channelRow__verified {
+  margin-left: 5px;
+  padding-top: 5px;
+}
+
+.channelRow__description > p {
+  font-size: 14px;
+  color: rgb(99, 97, 97);
+}

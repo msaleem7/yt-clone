@@ -1,0 +1,50 @@
+.videoRow {
+  display: flex;
+  padding: 16px 0px;
+  max-width: 700px;
+}
+
+.videoRow__thumbnail {
+  height: 200px;
+  width: 360px;
+}
+
+.videoRow__info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  padding-right: 30px;
+}
+
+.videoRow__info > h4 {
+  font-size: 18px !important;
+  font-weight: normal !important;
+}
+
+.videoRow__info > p {
+  font-size: 14px;
+  color: rgb(99, 97, 97);
+}
+
+.videoRow__channel {
+  padding: 15px 0px;
+  display: flex;
+}
+
+.videoRow__avatar {
+  height: 25px !important;
+  width: 23px !important;
+}
+
+.videoRow__channelName {
+  /* margin-top: 2px; */
+  padding-top: 2px;
+  font-size: 14px !important;
+  color: rgb(99, 97, 97);
+  margin-left: 7px;
+  display: flex;
+}
+
+.videoRow__verified {
+  margin-left: 2px;
+}
